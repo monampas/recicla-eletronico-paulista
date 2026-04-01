@@ -1,0 +1,52 @@
+header {
+  background: #fff;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* espaçamento entre ícone e nome */
+  font-weight: bold;
+  font-size: 30px; /* corrigido: tamanho maior da fonte */
+  color: #145e16;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+.logo img.home-icon-img {
+  width: 100px; /* corrigido: unidade px */
+  height: 100px;
+  object-fit: contain; /* para manter proporção */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a.menu-btn {
+  background: #abde97;
+  color: #145e16;
+  padding: 16px 32px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.3rem;
+  transition: background-color 0.3s ease;
+}
+
+nav a.menu-btn:hover {
+  background: #97ca7a;
+}

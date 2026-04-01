@@ -1,0 +1,152 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img.home-icon-img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2d702f;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #2d702f;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #abde97;
+    color: #000;
+  }
+  
+  /* Conteúdo principal */
+  main {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  main h1 {
+    color: #2d702f;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  main p,
+  main ul {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+  }
+  
+  main ul {
+    padding-left: 20px;
+  }
+  
+  main ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #2d702f;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+  }
+  
+  footer a {
+    color: #abde97;
+    text-decoration: underline;
+    margin-left: 5px;
+    transition: color 0.3s;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+  
+  /* Botões de ação */
+  .menu-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: #2d702f;
+    padding: 8px 16px;
+    border: 1px solid #2d702f;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .menu-btn:hover {
+    background: #abde97;
+    transform: translateY(-2px);
+    color: #000;
+  }
+  
+  /* Seção de info */
+  .info-page {
+    padding: 30px;
+    background-color: #fefefe;
+    border-left: 5px solid #abde97;
+    border-radius: 8px;
+  }
+  
+  /* Link Saiba Mais */
+  .saiba-mais {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .saiba-mais a {
+    color: #2d702f;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .saiba-mais a:hover {
+    color: #000;
+  }
+  
