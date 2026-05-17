@@ -25,7 +25,6 @@ Com uma abordagem sustentável, o **Recicla Eletrônico Paulista** busca reduzir
     * Conferência de dados sobre o ponto de descarte;
     * Histórico de descartes naquele ponto de descarte;
     * Postagem de novos registros de descarte.
-* Mapa dos pontos de descarte dentro das **mes
-sorregiões** do Estado de São Paulo;
+* Mapa dos pontos de descarte dentro das **mesorregiões** do Estado de São Paulo;
 ![Mapa das Mesoregiões do estado de São Paulo](https://github.com/monampas/recicla-eletronico-paulista/blob/main/assets/imagens/mesorregioes.jpeg)
 ![Mapa do REP](https://github.com/monampas/recicla-eletronico-paulista/blob/main/assets/imagens/mapa-do-rep.png)
